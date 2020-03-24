@@ -1,8 +1,0 @@
-node_modules
-build/
-*.log
-.idea
-app/.idea
-package-lock.json
-.publish
-desktop.ini
