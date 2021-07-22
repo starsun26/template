@@ -7,7 +7,7 @@ const rename = require('gulp-rename');
 const sourcemaps = require('gulp-sourcemaps');
 
 exports.build = () => (
-	gulp.src('app/**/*.scss')
+	gulp.src('app/**/*.{css,scss}')
 		.pipe(sourcemaps.init())
 		.pipe(sass())
 		.pipe(postcss([
